@@ -97,6 +97,8 @@ def run(dataset, modality, seed, num_labels = 3):
   output_f1 = trainer.evaluate(tokenized_datasets['test'])['eval_f1']
   predictions = trainer.predict(tokenized_datasets['test']).predictions.argmax(-1)
 
+
+  print(f"TEST SET PERFORMANCE: {output_f1}")
   return output_f1, predictions, tokenized_datasets['test']['labels']
 
 
