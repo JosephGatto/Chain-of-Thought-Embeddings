@@ -22,4 +22,4 @@ python main.py <modality> --seed <seed>
 Valid args for <modality> include ```text-only, cot-only, text+cot```. We used seeds = ```[1,2,3,4,5]``` in Table 7 of our paper. 
 
 #### Note 
-We are unable to release data for presidential-stance, but you can sign a terms of use agreement and download it [here](https://portals.mdi.georgetown.edu/public/stance-detection-KE-MLM). If you are interested in more details re: our work with this dataset please reach out! joseph {dot} m {dot} gatto {dot} gr @ dartmouth {dot} edu
+We are unable to release data for presidential-stance, but you can sign a terms of use agreement and download it [here](https://portals.mdi.georgetown.edu/public/stance-detection-KE-MLM). If you are interested in details re: our work with this dataset please reach out! joseph {dot} m {dot} gatto {dot} gr @ dartmouth {dot} edu
