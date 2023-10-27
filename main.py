@@ -136,7 +136,7 @@ if __name__ == '__main__':
 
   # Add arguments
   parser.add_argument("modality")
-  parser.add_argument("seed", type=int, const=1)
+  parser.add_argument("seed", type=int, default=1)
 
   # Indicate end of argument definitions and parse args
   args = parser.parse_args()
