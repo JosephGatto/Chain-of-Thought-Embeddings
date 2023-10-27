@@ -113,7 +113,7 @@ def main(args):
 
 
 
-  root = '/content/drive/MyDrive/Colab Notebooks/Submitted Works/Semantic COT/FINAL SCRIPTS/[GITHUB]/'
+  root = '/Data/'
 
   # Build dataset for training
   dataset = DatasetDict({
