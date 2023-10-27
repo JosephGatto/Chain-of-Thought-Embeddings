@@ -113,7 +113,7 @@ def main(args):
 
 
 
-  root = '/Data/'
+  root = 'Data/'
 
   # Build dataset for training
   dataset = DatasetDict({
